@@ -1,0 +1,26 @@
+html, body, .pagina {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.pagina {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #e27bff9f;
+}
+
+.altSounds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+.textoNombre {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: purple;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  margin: 1vh;
+}
+
+.textoNombre:hover {
+  color: white;
+  background-color: purple;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  transform: scale(1.1);
+}
+
+.textoAlt {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: purple;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  margin: 1vh;
+}
+
+.textoAlt:hover {
+  color: white;
+  background-color: purple;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  transform: scale(1.1);
+}

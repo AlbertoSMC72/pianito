@@ -1,0 +1,33 @@
+.tecla {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttonChico {
+    width: 30px;
+    height: 100px;
+    background: linear-gradient(to bottom, #626262, #1a1a1a);
+    border: 1px solid #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    transition: 400ms;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 1vh 1vh;
+    position: absolute;
+    z-index: 1;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+
+.buttonChico:active {
+    transition: 70ms;
+    background: linear-gradient(to bottom, #4a4a4a, #0a0a0a);
+    color: white;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+}

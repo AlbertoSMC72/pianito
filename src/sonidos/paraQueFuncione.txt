@@ -1,0 +1,16 @@
+
+npm install -g http-server
+
+npm install -g http-server-cors
+
+powershale con permisos de administrador 
+
+
+cd C:\Users\52961\OneDrive\Escritorio\emaquetado\projectoNEXT\pianito\src\organismos
+
+
+http-server --cors 
+
+
+link del sitio           +         el nombre del archivo para poder usarlo y funcione 
+http://127.0.0.1:8080/bonm.mp3
