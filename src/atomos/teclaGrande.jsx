@@ -4,9 +4,8 @@ import "../css/teclaGrande.css";
 
 const soundPath = "http://127.0.0.1:8080/peiw.mp3";
 
-function Tecla(params) {
+function Tecla({ colores, notaTecla }) {
     const soundRef = useRef(null);
-
     const reproducirSonido = () => {
         if (soundRef.current) {
             soundRef.current.stop();
@@ -18,9 +17,14 @@ function Tecla(params) {
         soundRef.current = sound;
     };
 
+    const buttonStyle = {
+        backgroundColor: colores || "linear-gradient(to bottom, #ffffff, #dddddd)",
+    };
+
     return (
-        <div className="teclaGrande">
-            <button className="buttonGrande" onClick={reproducirSonido}></button>
+        <div className="teclaGrande" >
+            <button style={buttonStyle}  className="buttonGrande" onClick={reproducirSonido}> {notaTecla} </button>
+            
         </div>
     );
 }

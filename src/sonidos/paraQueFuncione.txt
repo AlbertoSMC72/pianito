@@ -6,7 +6,7 @@ npm install -g http-server-cors
 powershale con permisos de administrador 
 
 
-cd C:\Users\52961\OneDrive\Escritorio\emaquetado\projectoNEXT\pianito\src\organismos
+cd C:\Users\52961\OneDrive\Escritorio\emaquetado\projectoNEXT\pianito\src\sonidos
 
 
 http-server --cors 

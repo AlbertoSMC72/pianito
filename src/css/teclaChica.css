@@ -6,7 +6,8 @@
 .buttonChico {
     width: 30px;
     height: 100px;
-    background: linear-gradient(to bottom, #626262, #1a1a1a);
+    /*     background: linear-gradient(to bottom, #626262, #1a1a1a);*/
+    background: linear-gradient(to bottom, #47d02f, #228603);
     border: 1px solid #000;
     text-align: center;
     display: flex;
@@ -27,7 +28,8 @@
 
 .buttonChico:active {
     transition: 70ms;
-    background: linear-gradient(to bottom, #4a4a4a, #0a0a0a);
+/*     background: linear-gradient(to bottom, #4a4a4a, #0a0a0a);
+ */    background: linear-gradient(to bottom, #24e402, #0b3100);
     color: white;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
 }

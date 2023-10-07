@@ -7,7 +7,7 @@
 .buttonGrande {
     width: 80px;
     height: 200px;
-    background: linear-gradient(to bottom, #ffffff, #dddddd); /* Fondo con degradado */
+    /*     background: linear-gradient(to bottom, #ffffff, #dddddd); /* Fondo con degradado */
     border: 1px solid #000;
     text-align: center;
     display: flex;
